@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>SITESTATSEARCH</title>
+ <meta name="description" content="ПОИСК СТАТИСТИКИ САЙТОВ">
+ 
+<style>
+body,
+html {
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ font-family: verdana, Arial;
+ box-sizing: border-box;
+}
+h1 {
+font-family: verdana;
+color: white;
+}
+p {
+font-family: Arial;
+color: Black;
+}
+#url-bar {
+ width: 80%;
+ padding: 10px;
+ border-radius: 64px;
+}
+
+#nav-bar {
+ display: flex;
+ align-items: center;
+ width: 100vw;
+ z-index: 1000;
+ height: 50px;
+ background: black;
+}
+
+#go-button {
+ padding: 10px;
+ background-color: Red;
+ border-radius: 64px;
+ color: #1b2b4c;
+ margin-left: auto;
+}
+
+#go-button:hover {
+ cursor: pointer;
+ background-color: #1b2b4c;
+ color: #f5f6f7;
+}
+
+#browser-content {
+ margin-top: 60px;
+ padding: 10px;
+}
+</style>
+  </head>
+
+<body>
+ <div id="nav-bar">
+  <h1>SITESTATSEARCH</h1> 
+ </div>
+ <div id="browser-content">
+<p>ПОИСК СТАТИСТИКИ САЙТОВ</p>
+
+  
+<aside id="search-2" class="widget widget_search">
+<form role="search" method="get" class="search-form" action="https://yandex.ru/search">		
+		<label>			
+		<input type="search" class="search-field" placeholder="ВАШ ЗАПРОС:" value="" name="text"/>				</label>				<input type="submit" class="search-submit" VALUE="ИСКАТЬ!">	</form></aside>
+	
+</body>
+
+</html>
