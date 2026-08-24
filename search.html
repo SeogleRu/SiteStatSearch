@@ -1,0 +1,14 @@
+<h1>SITESTATSEARCH <h2>ПОИСК ПОПУЛЯРНЫХ САЙТОВ</h2></h1> 
+<input id="key" name="key" placeholder="ПОИСК ПО СПИСКУ"/><button id="btn">ИСКАТЬ!</button>
+<h3>СПИСОК ПОПУЛЯРНЫХ САЙТОВ</h3> <a href="https://ya.ru">ЯНДЕКС</a><br> <a href="https://google.com">GOOGLE</a><br> 
+<a href="https://vk.ru">ВКОНТАКТЕ</a><br>
+<a href="https://youtube.com">YOUTUBE</a><br>
+<a href="https://ok.ru">ОДНОКЛАССНИКИ</a><br>
+<a href="https://ruwiki.ru">РУВИКИ</a><br>
+<p>_____________________________</p>
+<a href="https://seogleru.github.io/SiteStatSearch/">НА ГЛАВНУЮ</a><br>
+<script> const btn = document.getElementById("btn"); const keyField = document.getElementById("key"); btn.addEventListener("click", ()=>{
+
+    const result = find(keyField.value);       // ищем введенное в поле слово
+    console.log(result);
+}); </script>
